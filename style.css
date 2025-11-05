@@ -1,0 +1,53 @@
+button {
+background-color: #333333;
+color: #ffffff;
+padding: 6px 14px;
+border: 1px solid #555555;
+border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
+font-weight: 500;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+button:hover {
+background-color: #555555;
+color: #ffffff;
+transform: scale(1.05);
+}
+.details-btn {
+background-color: #d11f1f;
+color: #ffffff;
+font-size: 10px;
+font-weight: 600;
+padding: 5px 10px;
+margin-top: 8px;
+border-radius: 3px;
+box-shadow: 0 0 4px rgba(209, 31, 31, 0.4);
+cursor: pointer;
+}
+.details-btn:hover {
+background-color: #ff2a2a;
+transform: scale(1.05);
+box-shadow: 0 0 8px rgba(255,42,42,0.6);
+}
+#carrito-flotante {
+position:absolute;
+top:20px;
+right:20px;
+background-color:#8B0000;
+color:#ffffff;
+padding:15px;
+border-radius:50%;
+font-size:24px;
+text-align:center;
+text-decoration:none;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+transition:background 0.3s, transform 0.2s;
+z-index:1000;
+}
+#carrito-flotante:hover {
+background-color:#555555;
+transform:scale(1);
+}
+net
